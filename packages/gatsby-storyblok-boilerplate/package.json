@@ -34,7 +34,6 @@
   ],
   "license": "MIT",
   "scripts": {
-    "preinstall": "cd ../../",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "start": "npm run develop",
