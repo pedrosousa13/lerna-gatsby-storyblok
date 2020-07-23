@@ -10,7 +10,9 @@
     "gatsby-site": "lerna run start --scope=gatsby-site --stream",
     "gatsby-storyblok-boilerplate": "lerna run start --scope=gatsby-storyblok-boilerplate --stream",
     "gatsby-storyblok-boilerplate:build": "cd packages/gatsby-storyblok-boilerplate && npm run build",
-    "common:build": "cd packages/common && npm run build"
+    "common:build": "cd packages/common && npm run build",
+    "hsey:build": "SITE=HSEY npx lerna bootstrap && npm run common:build && npm run gatsby-storyblok-boilerplate:build",
+    "hsey2:build": "SITE=HSEY2 npx lerna bootstrap && npm run common:build && npm run gatsby-site:build"
   },
   "devDependencies": {
     "lerna": "^3.22.1"
