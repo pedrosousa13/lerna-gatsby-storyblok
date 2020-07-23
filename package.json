@@ -2,15 +2,15 @@
   "name": "root",
   "private": true,
   "scripts": {
-    "prebuild": "npx lerna bootstrap",
-    "preinstall": "npx lerna bootstrap",
     "test": "lerna exec --parallel -- npm run test",
     "start-project": "cd packages/project-1 && npm start",
     "clean-and-hoist": "npx lerna clean -y && lerna bootstrap --hoist",
     "alice": "cd packages/alice && npm start",
     "bob": "cd packages/bob && npm start",
     "gatsby-site": "lerna run start --scope=gatsby-site --stream",
-    "gatsby-storyblok-boilerplate": "lerna run start --scope=gatsby-storyblok-boilerplate --stream"
+    "gatsby-storyblok-boilerplate": "lerna run start --scope=gatsby-storyblok-boilerplate --stream",
+    "gatsby-storyblok-boilerplate:build": "cd packages/gatsby-storyblok-boilerplate && npm run build",
+    "common:build": "cd packages/common && npm run build"
   },
   "devDependencies": {
     "lerna": "^3.22.1"

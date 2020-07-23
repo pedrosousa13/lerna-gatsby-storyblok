@@ -1,7 +1,7 @@
 import React from "react";
 import SbEditable from "storyblok-react";
 import ReactMardown from "react-markdown";
-import './text-block.css';
+import './text-block.scss';
 
 const TextBlock = props => {
   console.log("give me props: ");
