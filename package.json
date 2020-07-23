@@ -7,7 +7,8 @@
     "clean-and-hoist": "lerna clean -y && lerna bootstrap --hoist",
     "alice": "cd packages/alice && npm start",
     "bob": "cd packages/bob && npm start",
-    "gatsby-site": "lerna run start --scope=gatsby-site --stream"
+    "gatsby-site": "lerna run start --scope=gatsby-site --stream",
+    "gatsby-storyblok-boilerplate": "lerna run start --scope=gatsby-storyblok-boilerplate --stream"
   },
   "devDependencies": {
     "lerna": "^3.22.1"
