@@ -37,10 +37,10 @@
     "install": "cd ../../ && npx lerna bootstrap && cd packages/gatsby-storyblok-boilerplate",
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "start": "npm run develop",
+    "start": "yarn develop",
     "format": "prettier --write \"src/**/*.js\"",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "hsey:inverse:build": "SITE=HSEY cd ../../ && npx lerna bootstrap && npm run common:build && npm run gatsby-storyblok-boilerplate:build"
+    "hsey:inverse:build": "SITE=HSEY cd ../../ && npx lerna bootstrap && yarn common:build && yarn gatsby-storyblok-boilerplate:build"
   },
   "devDependencies": {
     "prettier": "^1.14.2"
