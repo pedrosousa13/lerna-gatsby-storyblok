@@ -1,4 +1,4 @@
 [build]
   base    = ""
   publish = "public"
-  command = "pwd && yarn --cwd ../.."
+  command = "echo '$(pwd)' && ls -la ../.. && yarn --cwd ../.."
