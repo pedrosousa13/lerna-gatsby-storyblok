@@ -1,0 +1,20 @@
+{
+  "name": "project-1",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && echo \"This is project-1\" exit 0",
+    "build": "building... project-1...",
+    "start": "node ./src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hsey/common": "^1.0.0",
+    "package-1": "^0.0.1",
+    "package-2": "^0.0.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
