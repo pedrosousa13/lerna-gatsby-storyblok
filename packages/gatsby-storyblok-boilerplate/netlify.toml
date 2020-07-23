@@ -1,4 +1,0 @@
-[build]
-  command = "npx lerna run build" # build not only frontend, but all TS packages with a build script.
-  functions = ""
-  publish = "public"
