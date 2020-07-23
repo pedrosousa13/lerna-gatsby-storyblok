@@ -34,7 +34,7 @@
   ],
   "license": "MIT",
   "scripts": {
-    "preinstall": "cd ../../ && npx lerna link && lerna bootstrap",
+    "preinstall": "cd ../../ && npx lerna link && lerna bootstrap && cd packages/gatsby-storyblok-boilerplate",
     "prepack": "npx lerna link",
     "build": "gatsby build",
     "develop": "gatsby develop",
