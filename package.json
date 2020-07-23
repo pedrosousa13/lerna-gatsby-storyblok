@@ -3,6 +3,7 @@
   "private": true,
   "scripts": {
     "prebuild": "npx lerna bootstrap --hoist",
+    "preinstall": "npx lerna bootstrap --hoist",
     "test": "lerna exec --parallel -- npm run test",
     "start-project": "cd packages/project-1 && npm start",
     "clean-and-hoist": "npx lerna clean -y && lerna bootstrap --hoist",
