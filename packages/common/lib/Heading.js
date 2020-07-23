@@ -5,10 +5,8 @@ function Heading({
   level = "1",
   title
 }) {
-  return /*#__PURE__*/React.createElement("div", null, "something");
-} // function Heading({ level = "1", title }) {
-//   return React.createElement(`h${level}`, {}, title);
-// }
-
+  const Header = `h${level}`;
+  return /*#__PURE__*/React.createElement(Header, null, title);
+}
 
 export default Heading;

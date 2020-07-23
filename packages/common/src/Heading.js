@@ -2,11 +2,9 @@
 import React from "react";
 
 function Heading({ level = "1", title }) {
-  return <div>something</div>
-}
+  const Header = `h${level}`;
 
-// function Heading({ level = "1", title }) {
-//   return React.createElement(`h${level}`, {}, title);
-// }
+  return <Header>{title}</Header>
+}
 
 export default Heading;

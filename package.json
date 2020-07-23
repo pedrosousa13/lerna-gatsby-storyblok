@@ -5,7 +5,9 @@
     "test": "lerna exec --parallel -- npm run test",
     "start-project": "cd packages/project-1 && npm start",
     "clean-and-hoist": "lerna clean -y && lerna bootstrap --hoist",
-    "alice": "lerna run start --scope=alice"
+    "alice": "cd packages/alice && npm start",
+    "bob": "cd packages/bob && npm start",
+    "gatsby-site": "lerna run start --scope=gatsby-site --stream"
   },
   "devDependencies": {
     "lerna": "^3.22.1"
