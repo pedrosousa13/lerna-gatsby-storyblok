@@ -34,6 +34,7 @@
   ],
   "license": "MIT",
   "scripts": {
+    "preinstall": "npx lerna link",
     "prepack": "npx lerna link",
     "build": "gatsby build",
     "develop": "gatsby develop",
