@@ -34,7 +34,6 @@
   ],
   "license": "MIT",
   "scripts": {
-    "install": "cd ../../ && npx lerna bootstrap && cd packages/gatsby-storyblok-boilerplate",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "start": "yarn develop",

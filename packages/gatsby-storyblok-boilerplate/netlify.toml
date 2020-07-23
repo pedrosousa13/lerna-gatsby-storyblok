@@ -2,4 +2,3 @@
   base    = ""
   publish = "public"
   command = "yarn build"
-  ignore = "exit 1"
